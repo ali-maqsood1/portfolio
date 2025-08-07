@@ -80,7 +80,6 @@ export const Navbar = () => {
           )}
         >
           <div className="flex flex-col space-y-8 text-xl">
-            <ThemeToggle />
             {navItems.map((item, key) => (
               <a
                 key={key}
